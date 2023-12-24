@@ -40,7 +40,7 @@ const SideBar = ({selectedCategory, setSelectedCategory}) => {
           <Typography
             style={{
               color: category.name === selectedCategory ? "white" : "red",
-              marginRight: "15px",
+              marginRight: "1px",
             }}
           >
             {category.icon}
